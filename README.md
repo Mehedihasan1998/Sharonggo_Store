@@ -7,6 +7,7 @@ A new Flutter project. That has:
 - Hero animation to see Product details with price
 - Add to cart
 - Add to Favourite list
+- Bottom Navigation bar
 
 ## Project Look
 
