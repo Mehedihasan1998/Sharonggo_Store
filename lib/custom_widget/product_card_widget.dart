@@ -64,7 +64,7 @@ class _ProductCardWidgetState extends State<ProductCardWidget> {
                 Hero(
                   tag: "product${widget.product.id}",
                   child: CachedNetworkImage(
-                    width: 100, height: 100,
+                    width: 100, height: 90,
                     imageUrl: widget.product.image,
                     progressIndicatorBuilder: (context, url, downloadProgress) =>
                         CircularProgressIndicator(value: downloadProgress.progress),
